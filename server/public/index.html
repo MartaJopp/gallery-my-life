@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <title>Facebook for Myself</title>
+</head>
+<body ng-app = "myApp">
+    <div class = "container-fluid">
+        <div class="jumbotron">
+            <h1 class="display-3">Facebook for Myself</h1>
+            </div> <!--end jumbotron-->
+    Is angular working?  {{4===4}}
+    <div class = "col-md-12" id = "displayStuff">
+        <row class = "stuff">
+        <div ng-controller = "myLifeController as life">
+  <p>{{life.message}}</p>
+
+
+
+</row> <!--end row for stuff -->
+</div> <!--end div for displayStuff -->
+</div> <!--end div for ng-controller myLifeController -->
+    </div> <!--end div for container-fluid -->
+</body> <!--end body for myApp -->
+</html>
