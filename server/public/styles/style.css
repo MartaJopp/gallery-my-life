@@ -1,4 +1,14 @@
 #displayStuff {
     background-color: orange;
     height: 500PX;
+    padding: 20PX;
+    
+}
+
+.thumbnail {
+    padding: 20PX;
+    margin: 10PX;
+    height: 400PX;
+    width: 400PX;
+    background-color: yellow;
 }
