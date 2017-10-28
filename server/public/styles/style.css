@@ -1,14 +1,72 @@
 #displayStuff {
-    background-color: orange;
-    height: 500PX;
+    background-color: RGB(178, 53, 128);
+    height: 1000;
     padding: 20PX;
+    left-padding: 30PX;
+    border-radius: 5PX;
     
+}
+.jumbotron {
+    background-color: RGB(178, 53, 128);
+    color: white;
 }
 
 .thumbnail {
-    padding: 20PX;
+    padding: 10PX;
     margin: 10PX;
-    height: 400PX;
-    width: 400PX;
-    background-color: yellow;
+    height: 450PX;
+    width: 350PX;
+    background-color: RGB(184, 75, 255)
+}
+
+.like-btn {
+    background-color: RGB(178, 53, 128);
+    margin-bottom: 10PX;
+    margin-right: 5PX;
+    margin-left: 5PX;
+    border-radius: 5PX;
+    color: white;
+    width: 100PX;
+    height: 35PX;
+}
+
+.showComments {
+    border-radius: 5PX;
+    background-color: RGB(178, 53, 128);
+    color: white;
+    width: 210PX;
+    height: 35PX;
+    
+}
+
+.input {
+    margin-left: 5PX;
+}
+
+.caption {
+ padding: 40PX;
+    margin: 10PX;
+    height: 200PX;
+    width: 300PX;
+    background-color: RGB(241, 62, 255)   
+}
+
+.submit {
+    border-radius: 5PX;
+    background-color: RGB(178, 53, 128);
+    color: white;
+    height: 35PX;
+    width: 150PX;
+    margin-left: 10PX;
+}
+
+
+.style {
+ height: 200PX;
+    width: 300PX;
+    display: block;
+}
+
+.clickCounter {
+    font-weight: bold;
 }

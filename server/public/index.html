@@ -11,7 +11,7 @@
     <title>Facebook for Myself</title>
 </head>
 <body ng-app = "myApp">
-    <div class = "container-fluid">
+    <div class = "container">
         <div class="jumbotron">
             <h1 class="display-3">Facebook for Myself</h1>
             </div> <!--end jumbotron-->
@@ -20,13 +20,22 @@
         <div class = "row">
            
     <div class = "thumbnail col-md-4" ng-repeat="photo in life.pictures">
-<img class = "style" ng-src ="{{photo.photo}}" ng-click="life.clip(photo)" ng-show = "photo.photoShow">
+        <p class="clickCounter">Number of times photo clicked: {{photo.clicked}}</p>
+<img class = "style" "img-responsive" ng-src ="{{photo.photo}}" ng-click="life.clip(photo)" ng-show = "photo.photoShow">
 <p class="caption" ng-show = "photo.captionShow" ng-click="life.clip(photo)">{{photo.caption}}</p>
-<button class = "like" ng-click = "life.like(photo)">Like</button> {{photo.likes}}
-
+<br>
+<button type="button" class="like-btn" ng-click = "life.like(photo)">Like {{photo.likes}}</button>
+</button>
+<button class="showComments" ng-click="life.showComment(photo)">Show/Hide comments</button>
+<input class ="input" type = "text" ng-model = "photo.comment" placeholder = "comment here">
+<button class = "submit" ng-click = "life.submit(photo)">Add Comment</button>
+<ul class="commentsHere" ng-show="photo.commentShow">
+    <li ng-repeat="comment in photo.comments track by $index">{{comment.comment}}</li>
+</ul>
+<!-- <ul>
+<!-- <li ng-repeat = "comment in photo.comments track by $index" >{{comment.comment}}</li>     -->
+<!-- </ul>      -->
 </div>
-</div>
-
 </div>
 </div> <!--end row for stuff -->
 </div> <!--end div for displayStuff -->
