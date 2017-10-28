@@ -6,8 +6,8 @@ myApp.controller('myLifeController', function (){
     life.message = 'Hello life.message';
 
     life.pictures = [{
-        photo: '/pictures/family.jpg',
-        caption: '"caption about picture"',
+        photo: '/pictures/family1.jpg',
+        caption: '"My family."',
         likes: 0,
         photoShow: true,
         captionShow: false,
@@ -15,8 +15,8 @@ myApp.controller('myLifeController', function (){
         clicked: 0,
         comments: []
     },
-        { photo: '/pictures/newborn.JPG',
-        caption: '"Dylan newborn"',
+        { photo: '/pictures/Dylan.JPG',
+            caption: '"Dylan in the early fall of 2017."',
         likes: 0,
         photoShow: true,
         captionShow: false,
@@ -24,8 +24,8 @@ myApp.controller('myLifeController', function (){
         clicked: 0,
         comments: []
     },
-        { photo: '/pictures/newborn.JPG',
-        caption: '"Dylan newborn"',
+        { photo: '/pictures/Paisley.jpg',
+        caption: '"Our dog Paisley."',
         likes: 0,
         photoShow: true,
         captionShow: false,
@@ -34,8 +34,8 @@ myApp.controller('myLifeController', function (){
         comments: []
         },
         {
-        photo: '/pictures/newborn.JPG',
-        caption: '"Dylan newborn"',
+        photo: '/pictures/boys.JPG',
+        caption: '"California nephews."',
         likes: 0,
         photoShow: true,
         captionShow: false,
@@ -44,8 +44,8 @@ myApp.controller('myLifeController', function (){
         comments: []
         },
         {
-        photo: '/pictures/newborn.JPG',
-        caption: '"Dylan newborn"',
+            photo: '/pictures/mnmade.jpg',
+            caption: '"Born, raised and lived in Minnesota entire life.  Love to support local products and businesses."',
         likes: 0,
         photoShow: true,
         captionShow: false,
@@ -54,8 +54,8 @@ myApp.controller('myLifeController', function (){
         comments: []
     },
     {
-        photo: '/pictures/newborn.JPG',
-        caption: '"Dylan newborn"',
+        photo: '/pictures/gif.gif',
+        caption: '"Coaching gymnastics is one of my favorite hobbies."',
         likes: 0,
         photoShow: true,
         captionShow: false,
