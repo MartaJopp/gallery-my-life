@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 5000;
+var port = 5000 || process.env.port;
 
 // Serve up static files
 app.use(express.static('server/public'));
