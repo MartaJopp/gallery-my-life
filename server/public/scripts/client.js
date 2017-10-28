@@ -24,7 +24,7 @@ myApp.controller('myLifeController', function (){
         clicked: 0,
         comments: []
     },
-        { photo: '/pictures/Paisley.jpg',
+        { photo: '/pictures/Paisley smaller.jpg',
         caption: '"Our dog Paisley."',
         likes: 0,
         photoShow: true,
