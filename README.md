@@ -37,6 +37,11 @@ In a terminal window, navigate to the project folder once saved on your computer
 
 View on port 5000.
 
+## Screen Shot
+
+![header](server/public/images/gallery_header.png)
+![photos](server/public/images/gallery_photos.png)
+
 ### Completed Features
 
 High level list of items completed.
