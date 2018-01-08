@@ -24,7 +24,7 @@
 <img class = "style" "img-responsive" ng-src ="{{photo.photo}}" ng-click="life.clip(photo)" ng-show = "photo.photoShow">
 <p class="caption" ng-show = "photo.captionShow" ng-click="life.clip(photo)">{{photo.caption}}</p>
 <br>
-<button type="button" class="like-btn" ng-click = "life.like(photo)">Like {{photo.likes}}</button>
+<button type="button" class="like-btn" ng-click = "life.like(photo)"> Like {{photo.likes}}</button>
 </button>
 <button class="showComments" ng-click="life.showComment(photo)">Show/Hide comments</button>
 <input class ="input" type = "text" ng-model = "photo.comment" placeholder = "comment here">
